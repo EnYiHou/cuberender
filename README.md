@@ -3,7 +3,7 @@
 CubeRenderer is a personal project built with JavaFX, where I explored and implemented various linear algebra concepts and computer graphics techniques. The primary focus of this project was to render a 3D cube in a virtual world with a freely movable camera.
 
 
-## How to Use
+## Usage
 
 To use the CubeRenderer project, follow these steps:
 
@@ -14,7 +14,7 @@ To use the CubeRenderer project, follow these steps:
 
 2. Navigate to the project directory:
     ```bash
-    cd "cuberender"
+    cd cuberender/
     ```
 
 3. Run the project using Gradle:
