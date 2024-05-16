@@ -1,6 +1,4 @@
-package computer;
-
-import computer.graphic.Cube;
+package computer.graphic;
 
 /**
  * The Simulation class represents the world in which the cubes are placed.

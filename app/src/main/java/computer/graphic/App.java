@@ -4,7 +4,6 @@ package computer.graphic;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import computer.Simulation;
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.scene.Node;
