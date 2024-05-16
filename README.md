@@ -2,8 +2,7 @@
 
 CubeRenderer is a personal project built with JavaFX, where I explored and implemented various linear algebra concepts and computer graphics techniques. The primary focus of this project was to render a 3D cube in a virtual world with a freely movable camera.
 
-
-## How to Use
+## Installation
 
 To use the CubeRenderer project, follow these steps:
 
@@ -14,14 +13,19 @@ To use the CubeRenderer project, follow these steps:
 
 2. Navigate to the project directory:
     ```bash
-    cd "cuberender"
+    cd cuberender/
     ```
 
-3. Run the project using Gradle:
+3. Run the project using Gradle:  
     ```bash
     ./gradlew run
     ```
 
+> [!NOTE]
+> Step 3 assumes you are using a UNIX or a Unix-like operating system.
+
+> [!CAUTION]
+> Build may fail when running `./gradlew run` due to incompatible JDK and the project's Gradle version (see compatible Java and Gradle versions [here](https://docs.gradle.org/current/userguide/compatibility.html#java))
 
 ## Features
 
@@ -31,7 +35,6 @@ To use the CubeRenderer project, follow these steps:
 - **Camera Inside Cube Handling**: The project handles scenarios where the camera is positioned inside the cube, ensuring correct rendering and visibility.
 
 ## Techniques Explored
-
 
 - **Linear Algebra**: Extensive use of linear algebra concepts, such as vectors, matrices, and transformations, to handle 3D rendering and camera movement.
 - **Rasterization**: Although not actively used due to performance considerations, the project includes code for rendering individual pixels through rasterization.
